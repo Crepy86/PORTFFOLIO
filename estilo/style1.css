@@ -1,57 +1,40 @@
 /* Estilo para la imagen de perfil */
 .perfil-img {
     width: 500px;
-    /* Ajusta el ancho de la imagen */
     height: auto;
-    /* Mantiene la proporción */
     border-radius: 75%;
-    /* Hace la imagen circular */
-    box-shadow: 5px 5px 15px rgba(0, 221, 246, 0.3);
-    /* Agrega una sombra */
     display: block;
-    /* Permite aplicar márgenes automáticos */
     margin: 20px auto;
-    /* Centra la imagen horizontalmente */
+
 }
 
 body {
-    background: linear-gradient(to right, #5158df, #c34213);
-    color: #76ebf4;
+    font-family: Oswald, sans-serif;
+    background: #f6faee;  
+    color: #000000;
+}
+p {
+    font-family: Oswald, sans-serif;
+
+    margin-left:30px;
+    font-size: large;
 }
 
-h1 {
+h1,h2 {
+    font-family: Oswald, sans-serif;
     margin-left: 35px;
-}
-
-.contenedor {
-    display: flex;
-    /* Flexbox para alineación */
-    justify-content: center;
-    /* Centrar horizontalmente */
-    align-items: center;
-    /* Centrar verticalmente */
-    height: 200px;
-    /* Ocupa el alto total de la pantalla */
-    font-weight: bold;
-    font-size: 32px;
-}
-
-.contactos {
-
-    font-size: 20px;
 }
 .desc {
     font-size: x-large;
 }
-a {
-    display: inline-block;          /* Para comportarse como un botón */
-    padding: 12px 24px;             /* Espaciado interno del botón */
-    margin: 10px;                   /* Separación entre botones */
-    font-size: 18px;                /* Tamaño del texto */
-    color: white;                   /* Texto en blanco */
-    background: linear-gradient(135deg, #4CAF50, #2E8B57); /* Degradado de color */
-    text-decoration: none;          /* Quitar subrayado */
-    border-radius: 30px;            /* Esquinas redondeadas */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-    transition: transform 0.3s, box-shadow 0.3s; /* Animaciones suaves */
+/* botones*/
+.boton {
+    display: inline-block;         
+    padding: 12px 24px;      
+    margin: 10px;                
+    font-size: 18px;              
+    color: #f6faee;                 
+    background: linear-gradient(135deg, #4CAF50, #2E8B57); 
+    text-decoration: none;      
+    border-radius: 30px;         
 }
