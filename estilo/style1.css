@@ -1,0 +1,30 @@
+/* Estilo para la imagen de perfil */
+.perfil-img {
+    width: 200px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 75%; /* Hace la imagen circular */
+    box-shadow: 5px 5px 15px rgba(0, 221, 246, 0.3); /* Agrega una sombra */
+    display: block; /* Permite aplicar márgenes automáticos */
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+}
+body {
+    background: linear-gradient(to right, #5158df, #c34213);
+}
+body{
+    color: #76ebf4
+}
+h1 {
+    margin-left: 35px;
+}
+.contenedor {
+    display: flex;            /* Flexbox para alineación */
+    justify-content: center;  /* Centrar horizontalmente */
+    align-items: center;      /* Centrar verticalmente */
+    height: 200px;            /* Ocupa el alto total de la pantalla */
+    font-weight: bold;
+    font-size: 32px;
+}
+.contactos{
+    
+    font-size: 20px;
+}
